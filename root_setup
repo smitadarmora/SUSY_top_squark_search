@@ -1,0 +1,4 @@
+export ROOTSYS=/afs/cern.ch/sw/lcg/app/releases/ROOT/5.32.00/x86_64-slc5-gcc43-dbg/root
+export SHLIB_PATH=${SHLIB_PATH}:${ROOTSYS}/lib
+export PATH=${PATH}:${ROOTSYS}/bin
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${ROOTSYS}/lib
